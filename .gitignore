@@ -1,0 +1,29 @@
+
+/target/
+**/*.rs.bk
+
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+*.dek
+*.dek.backup
+deck.json
+deck-*.json
+*-check.json
+
+# Локальные сборки и бинарники
+/broken-arrow-dek
+/broken-arrow-dek.exe
+*.tar.gz
+*.zip
+
+# Логи
+*.log
